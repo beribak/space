@@ -1,4 +1,5 @@
 {
+  "homepage": "https://beribak.github.io/space",
   "name": "space",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +16,8 @@
     "redux-promise": "^0.6.0"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
