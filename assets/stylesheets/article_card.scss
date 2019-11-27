@@ -1,0 +1,48 @@
+.articles-container {
+	padding: 0px 20px 20px 0px;
+	/*background-color: black*/
+}
+
+.article-holder {
+	margin-bottom: 20px;
+	
+}
+
+.article-holder a {
+	
+	&:hover {
+	color: black;
+	text-decoration: underline;
+	}
+}
+
+.article-card {
+	padding: 10px;
+	// background-color: rgba(200, 200, 200, 0.1);
+	display: flex;
+	justify-content: space-between;
+
+	.text-container {
+		font-family: 'Poppins', sans-serif;
+		opacity: 0.8;
+		color: black;
+		/*margin: 0;*/
+		.title {
+			margin-top: 0px;
+			margin-bottom: 10px;
+			font-size: 19px;
+		}
+
+		.news-site {
+			color: red;
+		}
+	}
+
+	.article-image {
+		// border: 1px solid black;
+		width: 170px;
+		height: 165px;
+		object-fit: cover;
+	}
+
+}

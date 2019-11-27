@@ -1,0 +1,33 @@
+.image-container {
+	margin-top: 18px;
+	padding: 30px;
+	text-align: center;
+	// border: 2px solid black;
+	// display: flex;
+	/*flex-wrap: wrap;*/
+	justify-content: space-between;
+	/*align-items: center;*/
+
+	.image {
+		/*padding: 20px;*/
+		width: 75vw;
+		height: 82vh;
+		object-fit: cover;
+		/*object-position: center;*/
+	}
+
+	.image-text-container {
+	
+		padding: 20px 20px 20px 20px;
+
+		.image-text {
+			font-size: 15px;
+		}	
+	}
+}
+
+.image-iss {
+	width: 150px;
+	height: 110px;
+	object-fit: cover;
+}

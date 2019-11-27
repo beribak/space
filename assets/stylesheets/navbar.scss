@@ -1,0 +1,35 @@
+.mynavbar {
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 20px 10px 20px;
+	/*align-items: center;*/
+	top: 0;
+	right: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 1);
+	z-index: 1;
+	/*height: 100vh;*/
+
+	a {
+		font-family: 'Poppins', sans-serif;
+		color: white;
+		margin-left: 18px;
+		font-size: 20px;
+	}
+
+	.left {
+
+		.logo {
+			display: inline-block;
+			color: white;
+			font-size: 20px;
+		}
+		/*margin-left: 10px;*/
+	}
+
+	.right {
+
+	}
+	 
+}
