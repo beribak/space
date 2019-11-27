@@ -10,14 +10,15 @@
 
 	.image {
 		/*padding: 20px;*/
-		width: 75vw;
-		height: 82vh;
+		width: 90vw;
+		height: 88vh;
 		object-fit: cover;
 		/*object-position: center;*/
 	}
 
 	.image-text-container {
-	
+		margin: auto;
+		width: 75vw;
 		padding: 20px 20px 20px 20px;
 
 		.image-text {
