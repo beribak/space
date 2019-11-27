@@ -5,10 +5,9 @@ import { Provider } from 'react-redux';
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import { logger } from 'redux-logger'; 
 import reduxPromise from 'redux-promise';
-im
 // internal modules
 import App from './components/app';
-import '../assets/stylesheets/application.scss';
+import './assets/stylesheets/application.scss';
 
 import coordinatesReducer from './reducers/coordinates_reducer';
 import imageReducer from './reducers/image_reducer';
