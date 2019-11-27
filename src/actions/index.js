@@ -2,7 +2,7 @@
 
 export function fetchCoordinates() {
 	
-	const promise = fetch('http://api.open-notify.org/iss-now.json')
+	const promise = fetch('https://api.wheretheiss.at/v1/satellites/25544')
 	.then(response => response.json());
 
 	// const data = promise.	iss_position;
