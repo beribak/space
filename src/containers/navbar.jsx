@@ -16,11 +16,11 @@ class Navbar extends Component {
 			<div className="mynavbar">
 				<div className="left">
 					<p className="logo"><i class="fas fa-space-shuttle"></i></p>
-					<a href="#"	>Articles</a>
-					<a href="#"	>ISS</a>
+					<a href="#articles"	>Articles</a>
+					<a href="#iss"	>ISS</a>
 				</div>
 				<div className="right">
-					<a href="#">Link</a>
+					
 				</div>
 			</div>
 		);
