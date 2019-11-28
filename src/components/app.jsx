@@ -9,7 +9,10 @@ import IssPassTimes from '../containers/iss_pass_times';
 
 const App = () => {
   return (
-    <div className=""> 	    
+    <div className="">
+    	<div class="tenor-gif-embed" data-postid="10308184" data-share-method="host" data-width="100%" data-aspect-ratio="1.0353430353430353"><a href="https://tenor.com/view/astronaut-art-gif-10308184">Astronaut Art GIF</a> from <a href="https://tenor.com/search/astronaut-gifs">Astronaut GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script> 	    
+		<div className="giphy">
+		</div>
 		<Navbar />
 		<h1 className="heading">SPACE NEWS</h1>
 		<div className="container-fluid">
